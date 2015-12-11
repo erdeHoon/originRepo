@@ -7,6 +7,10 @@ int main (int argc, char** argv)
 			printf("%s\n", *(argv+i));		
 		}
 	}
+	else{
+		printf("%s\n",*argv);
+		printf("There is no option\n");
+	}
 	//test
 
   return(0);
