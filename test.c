@@ -7,6 +7,8 @@ int main (int argc, char** argv)
 			printf("%s\n", *(argv+i));		
 		}
 	}
+	else{
+	}
 	//test
 
   return(0);
